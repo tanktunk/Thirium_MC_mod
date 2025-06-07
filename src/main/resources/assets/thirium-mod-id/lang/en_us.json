@@ -1,0 +1,10 @@
+{
+  "item.thirium-mod-id.thirium": "Thirium",
+
+  "item.minecraft.potion.effect.blue_blood": "Blue Blood",
+  "item.minecraft.splash_potion.effect.blue_blood": "Splashing Blue Blood",
+  "item.minecraft.lingering_potion.effect.blue_blood": "Lingering Blue Blood",
+  "item.minecraft.tipped_arrow.effect.blue_blood": "Arrow of Blue Blood",
+
+  "item.thirium-mod-id.thirium_block": "Block of Thirium"
+}

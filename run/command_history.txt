@@ -1,0 +1,49 @@
+/time set day
+/gamemode survival
+/gamemode creatuev
+/gamemode creative
+/time set day
+/gamemode sur
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set day
+/gamemode creative
+/give @p minecraft:potion{Potion:"thirium-mod-id:blue_blood"}
+/tellraw @p {"translate":"test.translation"}
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/loot spawn ~ ~ ~ loot thirium-mod-id:blocks/thirium_block
+/gamemode creative
+/time set day
+/loot spawn ~ ~ ~ loot thirium-mod-id:blocks/thirium_block
+/gamemode survival
+/loot spawn ~ ~ ~ loot thirium-mod-id:blocks/thirium_block
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode
+/gamemode cr
+/gamemode creative
+/gamemode survival
+/
+/recipe give @p thirium-mod-id:thirium
+//recipe give @p thirium-mod-id:thirium
+/recipe give @p thirium-mod-id:thirium
+/time set day
+/give @s thirium-mod-id:thirium
+/recipe give @s thirium-mod-id:thirium_block
+/recipe give @s thirium-mod-id:thirium
+/gamemode survival
+/gamemode creative

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": "thirium-mod-id:thirium"
+  },
+  "result": {
+    "id": "thirium-mod-id:thirium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "thirium-mod-id",
+  "version": "${version}",
+  "name": "Thirium",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/thirium-mod-id/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.tank.thirium.client.ThiriumDataGenerator"
+    ],
+    "client": [
+      "com.tank.thirium.client.ThiriumClient"
+    ],
+    "main": [
+      "com.tank.thirium.ThiriumMain"
+    ]
+  },
+  "mixins": [
+    "thirium.mixins.json",
+    {
+      "config": "thirium.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
